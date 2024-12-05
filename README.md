@@ -19,21 +19,20 @@ Welcome to the **SurfsUp Climate Analysis API**! This project analyzes weather d
 4. **`.ipynb_checkpoints/`**:
    - Auto-generated directory for Jupyter Notebook checkpoints (safe to ignore).
 
-## API Endpoints
-Here are the available API routes provided by the `app.py`:
+## Setup and Usage
 
-### 1. `/`
-- **Description**: Displays a list of all available API routes with descriptions.
-- **Method**: GET
+### Prerequisites:
+1. Python 3.x
+2. Flask
+3. SQLAlchemy
+4. Jupyter Notebook (optional)
 
-### 2. `/api/v1.0/precipitation`
-- **Description**: Returns the last 12 months of precipitation data as JSON.
-- **Output Example**:
-  ```json
-  {
-      "2016-08-23": 0.0,
-      "2016-08-24": 0.08,
-      ...
-  }
+### How to Run:
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/CarlosSanchez1999/sqlalchemy-challenge.git
+   cd sqlalchemy-challenge
+
+
 
 
