@@ -4,7 +4,7 @@
 Welcome to the **SurfsUp Climate Analysis API**! This project analyzes weather data and provides a Flask-powered RESTful API to deliver insights on precipitation, temperature, and station information. The API is designed to support decisions related to climate analysis for potential business ventures.
 
 
-### Files and Directories:
+### Files and Directories inside SurfsUp directory:
 1. **`Resources/`**:
    - `hawaii.sqlite`: SQLite database containing weather data for Hawaii.
    - `hawaii_measurements.csv`: Raw data file with temperature and precipitation measurements.
