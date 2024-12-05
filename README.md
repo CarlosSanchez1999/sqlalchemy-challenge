@@ -1,4 +1,4 @@
-# SurfsUp - Climate Analysis API
+ # SurfsUp - Climate Analysis API
 
 ## Overview
 Welcome to the **SurfsUp Climate Analysis API**! This project analyzes weather data and provides a Flask-powered RESTful API to deliver insights on precipitation, temperature, and station information. The API is designed to support decisions related to climate analysis for potential business ventures.
@@ -32,6 +32,18 @@ Welcome to the **SurfsUp Climate Analysis API**! This project analyzes weather d
    ```bash
    git clone https://github.com/CarlosSanchez1999/sqlalchemy-challenge.git
    cd sqlalchemy-challenge
+
+- **Install the required dependencies:**
+  ```bash
+  pip install flask sqlalchemy
+
+## Data Exploration
+- Use the `climate_starter.ipynb` Jupyter Notebook for detailed exploration and initial analysis of the climate dataset. 
+- This notebook contains:
+  - SQL queries for extracting key insights from the data.
+  - Visualizations of precipitation and temperature trends.
+  - Data cleaning and transformation steps that serve as the foundation for the Flask API.
+
 
 
 
